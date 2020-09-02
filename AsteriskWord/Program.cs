@@ -3,19 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Diagnostics;
 
-namespace Reverse
+namespace AsteriskWord
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //get user input
             string input = Console.ReadLine();
-            //reverse the input and create a new string out of it
-            string reverse = new string(input.ToCharArray().Reverse().ToArray());
-            Console.WriteLine(reverse);
+            string final = string.Empty;
+
+            for(int i = 0; i < input.Length; i++)
+            {
+                final += i % 2 == 1 ? '*' : input[i];
+            }
+
+            Console.WriteLine(final);
 
             Console.ReadKey();
         }

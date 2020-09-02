@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{776B1E70-86A4-4262-8127-A79A9ADF0DFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "Composite\Reverse.csproj", "{776B1E70-86A4-4262-8127-A79A9ADF0DFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remove Vowels", "Remove Vowels\Remove Vowels.csproj", "{68C5DE94-B639-4B30-A472-DB02BC37597F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asterisk", "Asterisk\Asterisk.csproj", "{75E131FB-81AE-4B1C-A165-950CA5B19A51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dice", "Asterisk\Dice.csproj", "{75E131FB-81AE-4B1C-A165-950CA5B19A51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trim", "Trim\Trim.csproj", "{6F9F1789-42D9-4DD2-AE81-358C03FCDF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard", "Keyboard\Keyboard.csproj", "{B7E92B7A-25E8-4E6B-BBD3-C006506D7A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add-Dash", "Add-Dash\Add-Dash.csproj", "{071D671D-25AC-4AA4-89FB-D1D746464A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsteriskWord", "AsteriskWord\AsteriskWord.csproj", "{D7078A1C-A035-4254-9A47-19EB090D4DCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count A's", "Count A's\Count A's.csproj", "{9CFACD5C-9A89-4CC7-88E3-B84AF59DAA53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{6F9F1789-42D9-4DD2-AE81-358C03FCDF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9F1789-42D9-4DD2-AE81-358C03FCDF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9F1789-42D9-4DD2-AE81-358C03FCDF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E92B7A-25E8-4E6B-BBD3-C006506D7A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E92B7A-25E8-4E6B-BBD3-C006506D7A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E92B7A-25E8-4E6B-BBD3-C006506D7A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E92B7A-25E8-4E6B-BBD3-C006506D7A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071D671D-25AC-4AA4-89FB-D1D746464A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071D671D-25AC-4AA4-89FB-D1D746464A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071D671D-25AC-4AA4-89FB-D1D746464A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071D671D-25AC-4AA4-89FB-D1D746464A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7078A1C-A035-4254-9A47-19EB090D4DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7078A1C-A035-4254-9A47-19EB090D4DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7078A1C-A035-4254-9A47-19EB090D4DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7078A1C-A035-4254-9A47-19EB090D4DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFACD5C-9A89-4CC7-88E3-B84AF59DAA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFACD5C-9A89-4CC7-88E3-B84AF59DAA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFACD5C-9A89-4CC7-88E3-B84AF59DAA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFACD5C-9A89-4CC7-88E3-B84AF59DAA53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
